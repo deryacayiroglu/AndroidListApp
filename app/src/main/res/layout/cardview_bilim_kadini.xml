@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/cardview_layout_margin"
+        android:background="@color/dark_grey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dark_grey">
+
+            <ImageView
+                android:id="@+id/imgBilimKadiniLogo"
+                android:layout_width="@dimen/cardview_imgBilimKadiniLogo_width"
+                android:layout_height="@dimen/cardview_imgBilimKadiniLogo_height"
+                android:layout_marginStart="@dimen/cardview_imgBilimKadiniLogo_margin"
+                android:layout_marginTop="@dimen/cardview_imgBilimKadiniLogo_margin"
+                android:layout_marginBottom="@dimen/cardview_imgBilimKadiniLogo_margin"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/txtAdi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/cardview_txtAdi_margin"
+                android:textColor="@color/dark_pink"
+                android:textSize="@dimen/cardview_txtAdi_size"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/imgBilimKadiniLogo"
+                app:layout_constraintTop_toTopOf="@+id/imgBilimKadiniLogo"
+                tools:text="@string/cardview_txtAdi_tools_text" />
+
+            <TextView
+                android:id="@+id/txtAlani"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/cardview_txtAlani_marginTop"
+                android:textColor="@color/black"
+                android:textSize="@dimen/cardview_txtAlani_size"
+                app:layout_constraintStart_toStartOf="@+id/txtAdi"
+                app:layout_constraintTop_toBottomOf="@+id/txtAdi"
+                tools:text="@string/cardview_txtAlani_tools_text" />
+
+            <TextView
+                android:id="@+id/txtDogumTarihi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="@+id/imgBilimKadiniLogo"
+                app:layout_constraintStart_toStartOf="@+id/txtAlani"
+                tools:text="@string/cardview_txtDogumTarihi_tools_text" />
+
+            <TextView
+                android:id="@+id/txtOlumTarihi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/cardview_txtOlumTarihi_marginStart"
+                app:layout_constraintStart_toEndOf="@+id/txtDogumTarihi"
+                app:layout_constraintTop_toTopOf="@+id/txtDogumTarihi"
+                tools:text="@string/cardview_txtOlumTarihi_tools_text" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

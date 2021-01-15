@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context=".activities.ListeActivity">
+
+    <ImageView
+        android:id="@+id/imgKapak"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/image_kapak_height"
+        android:padding="@dimen/image_kapak_padding"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kapak" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvBilimKadinlari"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/auto_fix"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgKapak"
+        tools:listitem="@layout/cardview_bilim_kadini" />
+
+    <TextView
+        android:id="@+id/txtAciklama"
+        android:layout_width="@dimen/auto_fix"
+        android:layout_height="@dimen/auto_fix"
+        android:layout_margin="@dimen/txtAciklama_layout_margin"
+        android:background="@color/pink_trasparan"
+        android:padding="@dimen/txtAciklama_padding"
+        android:text="@string/txtAciklama_text"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textIsSelectable="false"
+        android:textSize="@dimen/txtAciklama_size"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imgKapak"
+        app:layout_constraintEnd_toEndOf="@+id/imgKapak"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgKapak"
+        tools:text="@string/txtAciklama_text" />
+</androidx.constraintlayout.widget.ConstraintLayout>

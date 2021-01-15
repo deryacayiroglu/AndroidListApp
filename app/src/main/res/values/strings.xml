@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">H5190004_DeryaCayirogluFinal</string>
+    <string name="alert_dialog_positive_button">EVET</string>
+    <string name="alert_dialog_negative_button">HAYIR</string>
+    <string name="alert_dialog_internet_title">İnternet Bağlantınız Yok!</string>
+    <string name="alert_dialog_internet_message">Uygulamayı Kullanmak İçin İnternete Bağlayın. İnternet Ayarları Açılsın Mı?</string>
+    <string name="alert_dialog_geri_tusu_title">ÇIKIŞ</string>
+    <string name="alert_dialog_geri_tusu_message">Uygulamadan Çıkmak İstiyor Musunuz?</string>
+    <string name="progress_dialog_message">Lütfen Bekleyiniz...!</string>
+    <string name="txtAciklama_text">BİLİM KADINLARI</string>
+    <string name="txtBaslik_tools_text">BAŞLIK</string>
+    <string name="txtDetay_tools_text">DETAY</string>
+    <string name="cardview_txtAdi_tools_text">Ada Lovelace</string>
+    <string name="cardview_txtAlani_tools_text">Matematik</string>
+    <string name="cardview_txtDogumTarihi_tools_text">(10 Aralık 1815)</string>
+    <string name="cardview_txtOlumTarihi_tools_text">(27 Kasım 1852)</string>
+</resources>

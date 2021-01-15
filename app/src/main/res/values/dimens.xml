@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="auto_fix">0dp</dimen>
+    <dimen name="image_kapak_height">210dp</dimen>
+    <dimen name="image_kapak_padding">16dp</dimen>
+    <dimen name="txtAciklama_layout_margin">16dp</dimen>
+    <dimen name="txtAciklama_padding">40dp</dimen>
+    <dimen name="txtAciklama_size">40sp</dimen>
+    <dimen name="activity_detay_linear_layout_margin">10dp</dimen>
+    <dimen name="activity_detay_text_padding">10dp</dimen>
+    <dimen name="imgKapakDetay_height">200dp</dimen>
+    <dimen name="txtBaslik_marginTop">10dp</dimen>
+    <dimen name="txtBaslik_size">30sp</dimen>
+    <dimen name="txtDetay_size">20sp</dimen>
+    <dimen name="cardview_layout_margin">16dp</dimen>
+    <dimen name="cardview_imgBilimKadiniLogo_width">100dp</dimen>
+    <dimen name="cardview_imgBilimKadiniLogo_height">100dp</dimen>
+    <dimen name="cardview_imgBilimKadiniLogo_margin">16dp</dimen>
+    <dimen name="cardview_txtAdi_margin">16dp</dimen>
+    <dimen name="cardview_txtAdi_size">24sp</dimen>
+    <dimen name="cardview_txtAlani_marginTop">11dp</dimen>
+    <dimen name="cardview_txtAlani_size">18sp</dimen>
+    <dimen name="cardview_txtOlumTarihi_marginStart">5dp</dimen>
+</resources>
