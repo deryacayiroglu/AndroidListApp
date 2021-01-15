@@ -13,11 +13,11 @@ Projenin amacı java temel bileşenleri ve retrofit, rxjava, okhhtp teknolojiler
 
 <h2 id="Ekranlar">Ekranlar</h2>
 <p>
-  <img height= "350"  src="https://github.com/deryacayiroglu/AndroidListApp/blob/master/Screens/SplashEkrani.PNG" />
-  <img height= "350"  src="https://github.com/deryacayiroglu/AndroidListApp/blob/master/Screens/InternetYokDialog.PNG" />
-  <img height= "350"  src="https://github.com/deryacayiroglu/AndroidListApp/blob/master/Screens/ListeEkrani.PNG" />
-  <img height= "350"  src="https://github.com/deryacayiroglu/AndroidListApp/blob/master/Screens/CikisDialog.PNG" />
-  <img height= "350"  src="https://github.com/deryacayiroglu/AndroidListApp/blob/master/Screens/DetayEkrani.PNG" />
+  <img height= "340"  src="https://github.com/deryacayiroglu/AndroidListApp/blob/master/Screens/SplashEkrani.PNG" />
+  <img height= "340"  src="https://github.com/deryacayiroglu/AndroidListApp/blob/master/Screens/InternetYokDialog.PNG" />
+  <img height= "340"  src="https://github.com/deryacayiroglu/AndroidListApp/blob/master/Screens/ListeEkrani.PNG" />
+  <img height= "340"  src="https://github.com/deryacayiroglu/AndroidListApp/blob/master/Screens/CikisDialog.PNG" />
+  <img height= "340"  src="https://github.com/deryacayiroglu/AndroidListApp/blob/master/Screens/DetayEkrani.PNG" />
 
 </p>
 
