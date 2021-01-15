@@ -25,7 +25,7 @@ Projenin amacı java temel bileşenleri ve retrofit, rxjava, okhhtp teknolojiler
 
 ![Architecture](https://github.com/deryacayiroglu/AndroidListApp/blob/master/images/MimariPaketYapisi.PNG)
 
-## Kullanılan Teknolijiler
+## Kullanılan Teknolojiler 🛠
 <li><a href="https://github.com/ReactiveX/RxJava">RxJava</a></li>
 <li><a href="https://square.github.io/retrofit/">Retrofit</a></li>
 <li><a href="https://github.com/square/okhttp">OkHttp</a></li>
