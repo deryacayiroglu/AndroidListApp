@@ -9,7 +9,7 @@
 
 Bilim Kadınları Uygulaması bilim alanında önemli adımlar atmış kadın bilim insanlarını listeleyen ve onlar hakkında bilgiler sunan bir uygulamadır.
 
-Projenin amacı java temel bileşenleri ve retrofit, rxjava, okhhtp teknolojileri kullanılarak temel bir listeleme uuygulaması oluşturmaktır.
+Projenin amacı java temel bileşenleri ve retrofit, rxjava, okhhtp teknolojileri kullanılarak temel bir listeleme uygulaması oluşturmaktır.
 
 <h2 id="Ekranlar">Ekranlar</h2>
 <p>
